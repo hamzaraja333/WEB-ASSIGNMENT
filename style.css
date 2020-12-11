@@ -27,4 +27,8 @@ body{
 .heading{
     text-align: center;
 }
-
+.table,th,td,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px 12px;
+}
