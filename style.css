@@ -37,3 +37,6 @@ body{
     height: 100px;
     object-fit: cover;
 }
+.contact_information{
+    margin-top: 40px;
+}
