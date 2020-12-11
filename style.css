@@ -72,4 +72,12 @@ body{
     padding: 0;
     margin-bottom: 5px;
 }
+.table tr td h4,h5{
+    margin: 0;
+    padding: 0;
+}
+.table tr td h4{
+    margin-bottom: 8px;
+}
+
 
