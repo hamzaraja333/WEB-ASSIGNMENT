@@ -1,0 +1,9 @@
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
