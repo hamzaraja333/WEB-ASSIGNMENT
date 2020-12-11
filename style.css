@@ -7,3 +7,21 @@ body{
     margin: 0 auto;
 }
 
+/* navbar */
+.navbar{
+    text-align: right;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
