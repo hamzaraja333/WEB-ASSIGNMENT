@@ -32,3 +32,8 @@ body{
     border-collapse: collapse;
     padding: 8px 12px;
 }
+.img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
