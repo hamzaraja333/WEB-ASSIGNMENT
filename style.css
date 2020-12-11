@@ -55,3 +55,11 @@ body{
     border-color: darkgray;
     width: 20%;
 }
+.form_style button{
+    outline: none;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
