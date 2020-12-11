@@ -40,3 +40,18 @@ body{
 .contact_information{
     margin-top: 40px;
 }
+.contact_information h3,p{
+    display: inline-block;
+}
+.contact_information p{
+    margin-left: 8px;
+    font-size: 20px;
+}
+.form_style h4 input{
+    outline: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: darkgray;
+    width: 20%;
+}
