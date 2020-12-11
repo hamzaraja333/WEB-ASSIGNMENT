@@ -67,3 +67,9 @@ body{
     margin-bottom: 20px;
     text-align: center;
 }
+.cv_header h4{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
