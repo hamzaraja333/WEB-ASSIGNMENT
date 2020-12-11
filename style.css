@@ -79,5 +79,10 @@ body{
 .table tr td h4{
     margin-bottom: 8px;
 }
+.table tr td h5{
+    font-size: 16;
+    font-weight: lighter;
+}
+
 
 
