@@ -26,6 +26,9 @@ body{
     font-size: 18px;
     padding: 10px;
 }
+.navbar ul li a:hover{
+    color: red;
+}
 .heading{
     text-align: center;
 }
