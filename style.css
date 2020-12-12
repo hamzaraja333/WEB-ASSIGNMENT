@@ -25,9 +25,11 @@ body{
     font-weight: bold;
     font-size: 18px;
     padding: 10px;
+    opacity: 0.3;
 }
 .navbar ul li a:hover{
     color: red;
+    opacity: 1;
 }
 .heading{
     text-align: center;
