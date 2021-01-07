@@ -25,12 +25,12 @@ body{
     font-weight: bold;
     font-size: 18px;
     padding: 10px;
-    opacity: 0.3;
-    transition: opacity 0.5s ease-in;
+    
+    
 }
 .navbar ul li a:hover{
     color: red;
-    opacity: 1;
+    
 }
 .heading{
     text-align: center;
@@ -63,13 +63,14 @@ body{
     border-color: darkgray;
     width: 20%;
 }
-.form_style button{
+.form_style a{
     outline: none;
     background-color: black;
     color: white;
     border: none;
     padding: 10px 25px;
     border-radius: 5px;
+    text-decoration: none;
 }
 .cv_header{
     margin-bottom: 20px;
