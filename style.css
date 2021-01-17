@@ -8,6 +8,7 @@ body{
     margin: 0 auto;
 }
 
+
 /* navbar */
 .navbar{
     text-align: right;
@@ -25,26 +26,63 @@ body{
     font-weight: bold;
     font-size: 18px;
     padding: 10px;
-    
-    
 }
 .navbar ul li a:hover{
     color: red;
     
 }
+
+
 .heading{
     text-align: center;
 }
-.table,th,td,tr{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 8px 12px;
+
+.containerthree{
+    display: grid;
+    grid-template-columns: 2% 10% 17% 57% 10% 5%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+                         "coloumn1 coloumn2 coloumn3 coloumn4 coloumn5 coloumn6 "
+                         "footer footer footer footer footer footer ";
 }
-.img img{
-    width: 100px;
-    height: 100px;
+
+
+
+.containerthree .coloumn1{
+    background-color: grey;
+    grid-area:coloumn1 ;
+    
+}
+.containerthree .coloumn2{
+    background-color: grey;
+    grid-area:coloumn2 ;
+}
+
+.containerthree .coloumn3{
+    background-color: grey;
+    grid-area:coloumn3 ;
+}
+
+.containerthree .coloumn4{
+    background-color: grey;
+    grid-area:coloumn4 ;
+}
+.containerthree .coloumn5{
+    background-color: grey;
+    grid-area:coloumn5 ;
+}
+.containerthree .coloumn6{
+    background-color: grey;
+    grid-area:coloumn6 ;
+}
+.tableimage{
+    width: 60px;
+    height: 30px;
     object-fit: cover;
+    margin-bottom: 6px;
 }
+
+
 .contact_information{
     margin-top: 40px;
 }
@@ -72,26 +110,51 @@ body{
     border-radius: 5px;
     text-decoration: none;
 }
-.cv_header{
-    margin-bottom: 20px;
+.containertwo{
+    display: grid;
+    grid-template-columns: 36% 36% 28%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+                         "nav main aside "
+                         "footer footer footer";
+}
+header{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    text-align: center;   
+}
+.colomun1 header{
     text-align: center;
 }
-.cv_header h4{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 5px;
+.containertwo .coloumn2{
+    background-color: grey;
+    grid-area:nav ;
+    
 }
-.table tr td h4,h5{
-    margin: 0;
-    padding: 0;
+.containertwo .coloumn3{
+    background-color: gray;
+    color: black;
+    grid-area:main ;
 }
-.table tr td h4{
-    margin-bottom: 8px;
+.containertwo .coloumn4{
+    background-color: grey;
+    grid-area:aside;
 }
-.table tr td h5{
-    font-size: 16px;
-    font-weight: lighter;
+.containertwo .coloumn5{
+    background-color: chartreuse;
+    color: yellowgreen;
+    grid-area:footer ;
 }
 .site_report{
     font-size: 18px;
+}
+.top-header{
+    text-align: center;
+}
+.valadation{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 6px;
 }
